@@ -1,0 +1,8 @@
+vipHashes = []
+adminHashes = ['\xee\x80\xa0OddWallaby2416','\xee\x80\xb0Android47706442']
+owners=['\xee\x80\xa0AluminumRebel46','\xee\x80\xa0Nippy']
+killers=['\xee\x80\xb0Android43657358']
+killere=['\xee\x80\xb0Android29012689']
+killerq=['\xee\x80\xb0Android40449343']
+#adminHashes = ['\xee\x80\xa0Google ID','\xee\x80\xb0PC ID','\xee\x80\xb0Android ID']
+ban=[]
