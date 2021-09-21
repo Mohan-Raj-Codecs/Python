@@ -80,7 +80,7 @@ def login():
 def sign_in():
     u_enter()
     p_enter()
-    t.sleep(5)
+    t.sleep(1)
     login()
 
 def ch_server():
