@@ -1,6 +1,6 @@
 {
-	'Harley': True
-	'Orbitz': True
-	'Aviral': True
-	'Nitin' : False
+	'Harley': true
+	'Orbitz': true
+	'Aviral': true
+	'Nitin' : false
 }
