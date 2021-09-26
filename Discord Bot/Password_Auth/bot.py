@@ -224,5 +224,5 @@ async def on_message(message):
 
 
 
-my_secret = 'ODc0OTAwODAyODg2NTY1ODg4.YRNs3g.QlsVBgZoRKNgh4klKWJ1U_BOxvk'
+my_secret = ''
 client.run(my_secret)
