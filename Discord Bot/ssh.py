@@ -1,11 +1,11 @@
 import paramiko
 
 Server_on = False
-ip="15.206.68.151"
+ip="65.0.139.80"
 user="ubuntu"
-#passwd="Your_Password"
-pem_file="MIRACLE.pem"
-key_file=paramiko.RSAKey.from_private_key_file(pem_file)
+passwd="Unix123890@"
+#pem_file="MIRACLE.pem"
+#key_file=paramiko.RSAKey.from_private_key_file(pem_file)
 ssh_client=paramiko.SSHClient()
 ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
