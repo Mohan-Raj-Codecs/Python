@@ -1,0 +1,29 @@
+_________________________________________________________________________________
+|			|					|		|
+|  Command & Arguments  |          Description                  |  Permissions  |
+|-----------------------|---------------------------------------|---------------|
+|         $me           | Returns your in role in Bot's Access  |    Everyone   |
+|-----------------------|---------------------------------------|---------------|
+|	 $list		| Returns the list of admins and Owners |    Admins	|
+|-----------------------|---------------------------------------|---------------|
+|	$status		| Returns Server status Currently Down	|    Admins	|
+|			| or Up Running.			|		|
+|-----------------------|---------------------------------------|---------------|
+|	$start		| Safely Starts up the Bombsquads 	|    Admins	|
+|			| Private Server (Ready to Play).	|		|
+|-----------------------|---------------------------------------|---------------|
+|     $force_start	| Starts up the Bombsquad Private 	|    Admins	|
+|			| Server Effectively Ignoring Errors.	|		|
+|-----------------------|---------------------------------------|---------------|
+|	 $stop		| Safely Stops the Bombsquads Private   |    Admins	|
+|			| Server (Ready to Save Money xD).	|		|
+|-----------------------|---------------------------------------|---------------|
+|     $force_stop	| Stops the Bombsquad Private Server    |    Admins	|
+|                	| Effectively Ignoring Errors.		|		|
+|-----------------------|---------------------------------------|---------------|
+| $add admin @DummyUser	| Add the User to Admin Priviledge	|    Owners	|
+|-----------------------|---------------------------------------|---------------|
+| $add owner @DummyUser	| Add the User to Owner Priviledge	|    Owners	|
+|-----------------------|---------------------------------------|---------------|
+| $remove @DummyUser	| Remove the User from All Priviledge	|    Editors	|
+|_______________________|_______________________________________|_______________|
