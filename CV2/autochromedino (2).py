@@ -24,7 +24,7 @@ def re():
 '''
 
 #alertdino=[738,324]
-#coluurs  ngrey=[172,172,172],grey=[83,83,83],white=[255,255,255],black=[0,0,0]
+#colours  ngrey=[172,172,172],grey=[83,83,83],white=[255,255,255],black=[0,0,0]
 def bot():
     while True :
         no_obj=[255,255,255]
