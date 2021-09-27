@@ -22,8 +22,9 @@ Step 3 : If you are using Password For linux Server Uncomment the passwd variabl
 Step 4 : If you are using PEM file to Authorize to Linux Server then change the pem_file to the name of your Pem file
 Step 5 : Copy and Paste Your PEM file in the Same Directory where Scripts are Loaded
 Step 6 : Open the bot.py
-Step 7 : Fill the god list with your Discord ID (Something Like this 574188245206958094) ,You can have Full Access to Commands
-Step 8 : Now Done Load Scripts in Server and Launch it 
+Step 7 : Go to last line of Code and File the my_secret variable with you Discord bot Token
+Step 8 : Fill the god list with your Discord ID (Something Like this 574188245206958094) ,You can have Full Access to Commands
+Step 9 : Now Done Load Scripts in Server and Launch it 
 
 INFO'S :
 1. Server Has Three Roles in it : god,Owners,Admins
