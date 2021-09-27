@@ -1,7 +1,7 @@
 import paramiko
 
 Server_on = False
-ip="65.0.139.80"
+ip="ip"
 user="ubuntu"
 passwd=""
 #pem_file="MIRACLE.pem"
