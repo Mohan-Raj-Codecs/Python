@@ -1,5 +1,6 @@
 from subprocess import call
 from os import getcwd
+from time import sleep
 
 def c(x):
     x = str(x)
@@ -20,7 +21,7 @@ GTAV = '"' + GTAV + '"'
 Sou = str(getcwd())
 So = Sou
 Sou = '"' + Sou + '"'
-c('xcopy /E /I *.* ' + GTAV)
-c('del "' + GTA + '\\MOD Installer.exe"')
+c('xcopy /E /I /Y *.* ' + GTAV)
 c('color A0')
-print('MOD Installed :)')
+print('                           MOD Installed :)')
+sleep(5)
