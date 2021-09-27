@@ -8,7 +8,7 @@ client = discord.Client()
 # var
 Salutation = ['Hello', 'helo', 'Hi', 'hi', 'Yo', 'yo','Helo']
 Cong = ['Tq', 'Thank you', 'tq', 'thank you','Thanks', 'thanks', 'thank', 'Thank']
-god=[735701371126546463,759760847584231485,574188245206958094]
+god=[]
 # events
 
 
