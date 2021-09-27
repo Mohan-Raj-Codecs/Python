@@ -101,10 +101,12 @@ async def on_message(message):
                 return
             try:
                 if ssh.Server_on:
-                    await message.channel.send('Trying to Restart Server')
+                    await message.channel.send('Server is Already Running Up :slight_smile:')
+                    await message.channel.send('Try  "$force_start" to start server Ignoring Error') 
+                    return
                 else:
                     await message.channel.send('Trying to Start Server')
-                ssh.exe("sudo ./pstart")
+                ssh.exe("sudo ./start")
                 await message.channel.send('Started Server :slight_smile:')
                 ssh.Server_on = True
             except:
@@ -118,7 +120,7 @@ async def on_message(message):
                 return
             try:
                 await message.channel.send('Trying to Force Start Server ')
-                ssh.exe("sudo ./pstart")
+                ssh.exe("sudo ./start")
                 await message.channel.send('Started Server :slight_smile:')
                 ssh.Server_on = True
             except:
@@ -133,7 +135,7 @@ async def on_message(message):
             try:
                 if ssh.Server_on:
                     await message.channel.send('Trying to Stop Server')
-                    ssh.exe("sudo ./pstop")
+                    ssh.exe("sudo ./stop")
                     await message.channel.send('Stopped Server :slight_smile:')
                     ssh.Server_on = False
                 else:
@@ -150,7 +152,7 @@ async def on_message(message):
                 return
             try:
                 await message.channel.send('Trying to Force Stop Server')
-                ssh.exe("sudo ./pstop")
+                ssh.exe("sudo ./stop")
                 await message.channel.send('Stopped Server :slight_smile:')
                 ssh.Server_on = False
             except:
@@ -161,6 +163,9 @@ async def on_message(message):
         if msg == 'add':
             if not(Permission.filt(message.author,"owner")):
                 await message.channel.send('Permission Denied :slight_frown:')
+                return
+            if  not(message.author.id in god) and (args[0] in ['Owner','owner']):
+                await message.channel.send('Permission Denied Owners can\'t Promote Owners :slight_frown:')
                 return
             if len(args)<=1 or len(args)>2:
                 await message.channel.send('Less or More Options Passed')
