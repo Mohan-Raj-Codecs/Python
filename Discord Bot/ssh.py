@@ -3,7 +3,7 @@ import paramiko
 Server_on = False
 ip="65.0.139.80"
 user="ubuntu"
-passwd="Unix123890@"
+passwd=""
 #pem_file="MIRACLE.pem"
 #key_file=paramiko.RSAKey.from_private_key_file(pem_file)
 ssh_client=paramiko.SSHClient()
