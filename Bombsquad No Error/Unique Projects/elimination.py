@@ -473,12 +473,12 @@ class EliminationGame(ba.TeamGameActivity[Player, Team]):
 
     def on_player_leave(self, player: Player) -> None:
         ########################################################Nippy#2677
-        team_count=1  #Just initiating
+        team_count=0  #Just initiating
         if player.lives>0 and Extreme_Balance:
             team_mem=[]
             for teamer in player.team.players:
                 if player!=teamer:
-                    team_mem.append(teamer)  #Got Dead players Team
+                    team_mem.append(teamer)  #Got Dead players Team members
             live=player.lives
             team_count=len(team_mem)
             for i in range(int((live if live%2==0 else live+1)/2)):  #Extending Player List for Sorted Players
@@ -487,7 +487,7 @@ class EliminationGame(ba.TeamGameActivity[Player, Team]):
                 for i in range(live):
                     team_mem[i].lives+=1
 
-        if team_count<=0 :   #Draw if Player Leaves
+        if len(self._get_living_teams()) < 2:
             self.end_game()
         ########################################################Nippy#2677
         super().on_player_leave(player)
