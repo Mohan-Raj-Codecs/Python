@@ -1,3 +1,6 @@
+"""
+Just Pyautogui Tut with Examples
+"""
 import pyautogui as m
 from time import *
 sleep(3)
