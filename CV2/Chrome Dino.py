@@ -1,3 +1,7 @@
+"""
+Simple Program That Access a Single Pixel Data to Guide Chrome Dino
+Dino is Partially Trained :| Will be Trained Soon :)
+"""
 import pyautogui as p
 from time import *
 sleep(4)
