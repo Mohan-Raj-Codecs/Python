@@ -34,3 +34,16 @@ INFO'S :
 
 !!!!!!!!!!!!!!!WARNINGS!!!!!!!!!!!!!! : 
 # god Members can Remove Roles and have FULL ACCESS , So Only paste Trustable ID's
+
+
+Example :
+
+$start
+
+$status
+
+$me
+
+$add admin @Dummy_User
+
+$force_start

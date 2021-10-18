@@ -9,16 +9,16 @@ ________________________________________________________________________________
 |	$status		| Returns Server status Currently Down	|    Admins	|
 |			| or Up Running.			|		|
 |-----------------------|---------------------------------------|---------------|
-|	$start		| Safely Starts up the Bombsquads 	|    Admins	|
+|     $start passwd	| Safely Starts up the Bombsquads 	|    Admins	|
 |			| Private Server (Ready to Play).	|		|
 |-----------------------|---------------------------------------|---------------|
-|     $force_start	| Starts up the Bombsquad Private 	|    Admins	|
+|   $force_start passwd | Starts up the Bombsquad Private 	|    Admins	|
 |			| Server Effectively Ignoring Errors.	|		|
 |-----------------------|---------------------------------------|---------------|
-|	 $stop		| Safely Stops the Bombsquads Private   |    Admins	|
+|     $stop passwd	| Safely Stops the Bombsquads Private   |    Admins	|
 |			| Server (Ready to Save Money xD).	|		|
 |-----------------------|---------------------------------------|---------------|
-|     $force_stop	| Stops the Bombsquad Private Server    |    Admins	|
+|   $force_stop passwd  | Stops the Bombsquad Private Server    |    Admins	|
 |                	| Effectively Ignoring Errors.		|		|
 |-----------------------|---------------------------------------|---------------|
 | $add admin @DummyUser	| Add the User to Admin Priviledge	|    Owners	|
@@ -27,3 +27,15 @@ ________________________________________________________________________________
 |-----------------------|---------------------------------------|---------------|
 | $remove @DummyUser	| Remove the User from All Priviledge	|    Editors	|
 |_______________________|_______________________________________|_______________|
+
+Example :
+
+$start My_Linux_Password
+
+$status
+
+$me
+
+$add admin @Dummy_User
+
+$force_start My_Linux_Password

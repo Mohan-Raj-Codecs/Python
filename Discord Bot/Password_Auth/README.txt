@@ -31,6 +31,20 @@ INFO'S :
 2. Admin has Access to start and stop server
 3. Owners has Access to add Admins and Owners , and has Access to Server
 4. god can Remove Roles from user's and have FULL ACCESS
+5. This Bot will Require you to Enter password if you are interacting with Linux Server
 
 !!!!!!!!!!!!!!!WARNINGS!!!!!!!!!!!!!! : 
 # god Members can Remove Roles and have FULL ACCESS , So Only paste Trustable ID's
+# This asks you to Enter Password of Linux server you were Interacting with, So use it only in Private Servers
+
+Example Commands :
+
+$start My_Linux_Password
+
+$status
+
+$me
+
+$add admin @Dummy_User
+
+$force_start My_Linux_Password
