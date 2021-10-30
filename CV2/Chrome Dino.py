@@ -4,6 +4,7 @@ Dino is Partially Trained :| Will be Trained Soon :)
 """
 import pyautogui as p
 from time import *
+print("Starting Dino Guider........")
 sleep(4)
 
 #alertdino=[738,324]

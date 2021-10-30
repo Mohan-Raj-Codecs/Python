@@ -50,7 +50,7 @@ echo.
 echo                                                Keep Your Internet Connected :) ..................
 timeout 5 
 cls
-python -m pip install pygame tk pillow
+python -m pip install tk pillow
 echo                                              Listing Modules
 python -m pip list
 timeout 3

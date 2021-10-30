@@ -2,17 +2,21 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
+#from selenium.webdriver.chrome import ChromeDriverManager
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 import time as t
+import os
+
 
 
 d_file='chromedriver.exe'
 
-#driver = webdriver.Chrome(d_file)
+driver = webdriver.Chrome(d_file)
 options = Options()
-options.add_extension('VPN.crx')
-driver = webdriver.Chrome(d_file,options=options)
+options.add_argument("--log-level=3")  # disable Info/Error/Warning in Chrome Driver
+os.environ['WDM_LOG_LEVEL'] = '0'  # Disable the logging of ChromeDriverManager()
+driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 #options = Options()
 #options.add_argument("user-data-dir=C:\\Users\\raj28\\AppData\\Local\\Google\\Chrome\\User Data\\") 
 #driver = webdriver.Chrome(options=options)
