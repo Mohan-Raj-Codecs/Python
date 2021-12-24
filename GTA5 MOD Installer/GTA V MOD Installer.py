@@ -32,7 +32,6 @@ GTAV = input('Enter the path of GTAV : ')
 GTA = GTAV
 GTAV = '"' + GTAV + '"'
 Sou = str(getcwd())
-So = Sou
 Sou = '"' + Sou + '"'
 cal('xcopy /E /I /Y /EXCLUDE:exclude.txt  * ' + GTAV)
 cal('color A0')
