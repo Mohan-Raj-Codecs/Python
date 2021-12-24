@@ -63,6 +63,7 @@
 		<Vehicle name="JACKAL" />
 		<Vehicle name="ORACLE" />
 		<Vehicle name="ORACLE2" /><!-- Oracle XS -->
+		<Vehicle name="PREVION" />
 		<Vehicle name="SENTINEL2" /><!-- Sentinel -->
 		<Vehicle name="SENTINEL" /><!-- Sentinel XS -->
 		<Vehicle name="WINDSOR" />
@@ -81,31 +82,39 @@
 		<Vehicle name="BLISTA2" /><!-- Blista Compact -->
 		<Vehicle name="BUFFALO" />
 		<Vehicle name="BUFFALO2" /><!-- Buffalo S -->
+		<Vehicle name="CALICO" /><!-- Calico GTF -->
 		<Vehicle name="CARBONIZZARE" />
 		<Vehicle name="COMET2" /><!-- Comet -->
 		<Vehicle name="COMET3" /><!-- Comet Retro Custom -->
+		<Vehicle name="COMET6" /><!-- Comet S2 -->
 		<Vehicle name="COMET4" /><!-- Comet Safari -->
 		<Vehicle name="COMET5" /><!-- Comet SR -->
 		<Vehicle name="COQUETTE" />
 		<Vehicle name="COQUETTE4" /><!-- Coquette D10 -->
+		<Vehicle name="CYPHER" />
 		<Vehicle name="TAMPA2" /><!-- Drift Tampa -->
 		<Vehicle name="ELEGY" /><!-- Elegy Retro Custom -->
 		<Vehicle name="ELEGY2" /><!-- Elegy RH8 -->
+		<Vehicle name="EUROS" />
 		<Vehicle name="FELTZER2" /><!-- Feltzer -->
 		<Vehicle name="FLASHGT" />
 		<Vehicle name="FUROREGT" />
 		<Vehicle name="FUSILADE" />
 		<Vehicle name="FUTO" />
+		<Vehicle name="FUTO2" /><!-- Futo GTX -->
 		<Vehicle name="ZR3802" /><!-- Future Shock ZR380 -->
 		<Vehicle name="GB200" />
 		<Vehicle name="BLISTA3" /><!-- Go Go Monkey Blista -->
+		<Vehicle name="GROWLER" />
 		<Vehicle name="HOTRING" />
 		<Vehicle name="IMORGON" />
 		<Vehicle name="ISSI7" /><!-- Issi Sport -->
 		<Vehicle name="ITALIGTO" />
+		<Vehicle name="ITALIRSX" />
 		<Vehicle name="JESTER" />
 		<Vehicle name="JESTER2" /><!-- Jester (Racecar) -->
 		<Vehicle name="JESTER3" /><!-- Jester Classic -->
+		<Vehicle name="JESTER4" /><!-- Jester RR -->
 		<Vehicle name="JUGULAR" />
 		<Vehicle name="KHAMELION" />
 		<Vehicle name="KOMODA" />
@@ -128,7 +137,9 @@
 		<Vehicle name="RAPIDGT" />
 		<Vehicle name="RAPIDGT2" /><!-- Rapid GT Cabrio -->
 		<Vehicle name="RAPTOR" />
+		<Vehicle name="REMUS" />
 		<Vehicle name="REVOLTER" />
+		<Vehicle name="RT3000" />
 		<Vehicle name="RUSTON" />
 		<Vehicle name="SCHAFTER4" /><!-- Schafter LWB -->
 		<Vehicle name="SCHAFTER3" /><!-- Schafter V12 -->
@@ -143,10 +154,15 @@
 		<Vehicle name="SUGOI" />
 		<Vehicle name="SULTAN" />
 		<Vehicle name="SULTAN2" /><!-- Sultan Classic -->
+		<Vehicle name="SULTAN3" /><!-- Sultan RS Classic -->
 		<Vehicle name="SURANO" />
 		<Vehicle name="TROPOS" />
 		<Vehicle name="VSTR" /><!-- V-STR -->
+		<Vehicle name="VECTRE" />
 		<Vehicle name="VERLIERER2" />
+		<Vehicle name="VETO" /><!-- Veto Classic -->
+		<Vehicle name="VETO2" /><!-- Veto Modern -->
+		<Vehicle name="ZR350" />
 	</Category>
 	<Category name="Muscle">
 		<Vehicle name="DOMINATOR4" /><!-- Apocalypse Dominator -->
@@ -164,6 +180,8 @@
 		<Vehicle name="COQUETTE3" /><!-- Coquette BlackFin -->
 		<Vehicle name="DEVIANT" />
 		<Vehicle name="DOMINATOR" />
+		<Vehicle name="DOMINATOR7" /><!-- Dominator ASP -->
+		<Vehicle name="DOMINATOR8" /><!-- Dominator GTT -->
 		<Vehicle name="DOMINATOR3" /><!-- Dominator GTX -->
 		<Vehicle name="YOSEMITE2" /><!-- Drift Yosemite -->
 		<Vehicle name="DUKES2" /><!-- Duke O'Death -->
@@ -255,6 +273,7 @@
 		<Vehicle name="FELTZER3" /><!-- Stirling GT -->
 		<Vehicle name="STROMBERG" />
 		<Vehicle name="SWINGER" />
+		<Vehicle name="TOREADOR" />
 		<Vehicle name="TORERO" />
 		<Vehicle name="TORNADO" />
 		<Vehicle name="TORNADO2" /><!-- Tornado Cabrio -->
@@ -330,8 +349,10 @@
 		<Vehicle name="SUPERD" />
 		<Vehicle name="SURGE" />
 		<Vehicle name="TAILGATER" />
+		<Vehicle name="TAILGATER2" /><!-- Tailgater S -->
 		<Vehicle name="LIMO2" /><!-- Turreted Limo -->
 		<Vehicle name="WARRENER" />
+		<Vehicle name="WARRENER2" /><!-- Warrener HKR -->
 		<Vehicle name="WASHINGTON" />
 	</Category>
 	<Category name="Offroad">
@@ -356,7 +377,7 @@
 		<Vehicle name="BRUISER2" /><!-- Future Shock Bruiser -->
 		<Vehicle name="BRUTUS2" /><!-- Future Shock Brutus -->
 		<Vehicle name="MONSTER4" /><!-- Future Shock Sasquatch -->
-		<Vehicle name="HELLION">
+		<Vehicle name="HELLION" />
 		<Vehicle name="BLAZER3" /><!-- Hot Rod Blazer -->
 		<Vehicle name="BFINJECTION" />
 		<Vehicle name="INSURGENT" />
@@ -390,6 +411,8 @@
 		<Vehicle name="TECHNICAL3" /><!-- Technical Custom -->
 		<Vehicle name="TROPHYTRUCK" />
 		<Vehicle name="VAGRANT" />
+		<Vehicle name="VERUS" />
+		<Vehicle name="WINKY" />
 		<Vehicle name="YOSEMITE3" /><!-- Yosemite Rancher -->
 		<Vehicle name="ZHABA" />
 	</Category>
@@ -424,6 +447,7 @@
 		<Vehicle name="SEMINOLE" />
 		<Vehicle name="SEMINOLE2" /><!-- Seminole Frontier -->
 		<Vehicle name="SERRANO" />
+		<Vehicle name="SQUADDIE" />
 		<Vehicle name="TOROS" />
 		<Vehicle name="XLS" />
 		<Vehicle name="XLS2" /><!-- XLS (Armored) -->
@@ -434,6 +458,7 @@
 		<Vehicle name="BLISTA" />
 		<Vehicle name="KANJO" /><!-- Blista Kanjo -->
 		<Vehicle name="BRIOSO" />
+		<Vehicle name="BRIOSO2" /><!-- Brioso 300 -->
 		<Vehicle name="CLUB" />
 		<Vehicle name="DILETTANTE" />
 		<Vehicle name="DILETTANTE2" /><!-- Merryweather Dilettante -->
@@ -444,6 +469,7 @@
 		<Vehicle name="PANTO" />
 		<Vehicle name="PRAIRIE" />
 		<Vehicle name="RHAPSODY" />
+		<Vehicle name="WEEVIL" />
 	</Category>
 	<Category name="Pickup">
 		<Vehicle name="BISON" />
@@ -519,6 +545,7 @@
 		<Vehicle name="SADLER" />
 		<Vehicle name="SADLER2" /><!-- Sadler North Yankton variant -->
 		<Vehicle name="SCRAP" />
+		<Vehicle name="SLAMTRUCK" />
 		<Vehicle name="TAXI" />
 		<Vehicle name="TOURBUS" />
 		<Vehicle name="TOWTRUCK2" /><!-- Tow Truck Slamvan variant -->
@@ -601,6 +628,7 @@
 		<Vehicle name="THRUSTER" />
 		<Vehicle name="KHANJALI" /><!-- TM-02 Khanjali -->
 		<Vehicle name="POLICE4" /><!-- Unmarked Cruiser -->
+		<Vehicle name="VETIR" />
 	</Category>
 	<Category name="Motorcycle">
 		<Vehicle name="AKUMA" />
@@ -634,6 +662,7 @@
 		<Vehicle name="INNOVATION" />
 		<Vehicle name="LECTRO" />
 		<Vehicle name="MANCHEZ" />
+		<Vehicle name="MANCHEZ2" /><!-- Manchez Scout -->
 		<Vehicle name="NEMESIS" />
 		<Vehicle name="NIGHTBLADE" />
 		<Vehicle name="DEATHBIKE3" /><!-- Nightmare Deathbike -->
@@ -694,6 +723,7 @@
 		<Vehicle name="PYRO" />
 		<Vehicle name="BOMBUSHKA" /><!-- RM-10 Bombushka -->
 		<Vehicle name="ROGUE" />
+		<Vehicle name="ALKONOST" /><!-- RO-86 Alkonost -->
 		<Vehicle name="SEABREEZE" />
 		<Vehicle name="SHAMAL" />
 		<Vehicle name="TITAN" />
@@ -709,6 +739,7 @@
 	<Category name="Helicopter">
 		<Vehicle name="AKULA" />
 		<Vehicle name="ANNIHILATOR" />
+		<Vehicle name="ANNIHILATOR2" /><!-- Annihilator Stealth -->
 		<Vehicle name="BUZZARD2" /><!-- Buzzard -->
 		<Vehicle name="BUZZARD" /><!-- Buzzard Attack Chopper -->
 		<Vehicle name="CARGOBOB" /><!-- Military Cargobob -->
@@ -724,6 +755,8 @@
 		<Vehicle name="SAVAGE" />
 		<Vehicle name="SEASPARROW" />
 		<Vehicle name="SKYLIFT" />
+		<Vehicle name="SEASPARROW2" /><!-- Sparrow -->
+		<Vehicle name="SEASPARROW3" /><!-- Sparrow (prop variant) -->
 		<Vehicle name="SUPERVOLITO" />
 		<Vehicle name="SUPERVOLITO2" /><!-- SuperVolito Carbon -->
 		<Vehicle name="SWIFT" />
@@ -733,14 +766,19 @@
 		<Vehicle name="VOLATUS" />
 	</Category>
 	<Category name="Boat">
+        <Vehicle name="AVISA" /><!-- Kraken Avisa -->
 		<Vehicle name="DINGHY" />
 		<Vehicle name="DINGHY2" /><!-- Dinghy 2-seater variant -->
 		<Vehicle name="DINGHY3" /><!-- Dinghy heist variant -->
 		<Vehicle name="DINGHY4" /><!-- Dinghy yacht variant -->
+        <Vehicle name="DINGHY5" /><!-- Dinghy weaponized variant -->
 		<Vehicle name="JETMAX" />
+        <Vehicle name="KOSATKA" />
+        <Vehicle name="LONGFIN" /><!-- Shitzu Longfin -->
 		<Vehicle name="SUBMERSIBLE2" /><!-- Kraken -->
 		<Vehicle name="MARQUIS" />
 		<Vehicle name="PREDATOR" />
+        <Vehicle name="PATROLBOAT" /><!-- Kurtz 31 Patrol Boat -->
 		<Vehicle name="SEASHARK" />
 		<Vehicle name="SEASHARK2" /><!-- Lifeguard Seashark -->
 		<Vehicle name="SEASHARK3" /><!-- Seashark yacht variant -->
