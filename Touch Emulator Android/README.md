@@ -14,7 +14,7 @@
 	2) You can see a Pop up for Authorization on your Mobile , Grant it.
 	3) Now Click or Swipe on the screenshot shown on your PC to simulate click or swipe events on you mobile
 
-# Other Features:
+# Tips:
 	$ If you are stuck try clicking on "Screen Fix" or "Refresh Screen" to Refresh Mobile screen.
 
 
