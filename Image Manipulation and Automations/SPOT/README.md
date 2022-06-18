@@ -1,29 +1,24 @@
-# ____  ____   ___ _____ 
-#/ ___||  _ \ / _ \_   _|
-#\___ \| |_) | | | || |  
-# ___) |  __/| |_| || |  
-#|____/|_|    \___/ |_|  
-                            
-                                          
-# A Human Motion Detection program
+# SPOT                                                                    
 
-# Description
+## A Human Motion Detection program
+
+## Description
    This code only captures frames from the video or camera
    when only a person passes on the focus area.
 
 
-# Features :
+## Features :
    - Only Captures when there is a Human motion (Not other Things Movement)
 
 
-# Quick Start :
+## Quick Start :
    - ### The Default Login Credentials are:
       - Username : ```spot```
       - Password : ```1234```
 
 
-# Requirements :
-   ## Python3.7 Modules
+## Requirements :
+   ### Python3.7 Modules
 ```
 python -m pip install numpy tk Pillow opencv-python
 ```
