@@ -18,13 +18,15 @@
 
 # Quick Start :
    - ### The Default Login Credentials are:
-	- Username : ```spot```
-	- Password : ```1234```
+      - Username : ```spot```
+      - Password : ```1234```
 
 # Requirements :
    ### Python3.7
    ## Python Modules
-```python -m pip install numpy tk Pillow opencv-python```
+```
+python -m pip install numpy tk Pillow opencv-python
+```
 
 # Credits :
    - ### Alsa Abi (UI Design)
