@@ -1,5 +1,7 @@
 **╔═╗╔═╗╔═╗╔╦╗**
+
 **╚═╗╠═╝║ ║ ║ **
+
 **╚═╝╩  ╚═╝ ╩ **                            
                                           
 # A Human Motion Detection program
