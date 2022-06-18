@@ -25,5 +25,6 @@ python -m pip install numpy tk Pillow opencv-python
 
 
 # Credits :
+   - ### Ganesh ( innovator & Logo Design)
    - ### Alsa Abi (UI Design)
-   - ### Ganesh (Logo Design)
+
