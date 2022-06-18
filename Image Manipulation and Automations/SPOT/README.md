@@ -6,23 +6,22 @@
 
 # A Human Motion Detection python program
 
-# Description :
-
+# Description
 	This code only captures frames from the video or camera
-when only a person passes on the focus of camera.
+	when only a person passes on the focus of camera.
 
-# Features :
+# Features
     - Only Captures when there is a Human motion (Not other Things Movement)
 
-# Quick Start :
+# Quick Start
     - ### The Default Login Credentials are:
 ```			- Username : spot
 			- Password : 1234
 ```
 
-# Requirements :
+# Requirements
 	### Python3.7
-	## Python Modules :
+	## Python Modules
 ```			python -m pip install numpy tk Pillow opencv-python 
 ```
 
