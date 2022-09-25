@@ -1,5 +1,0 @@
-numpy
-tk
-Pillow
-opencv-python
-

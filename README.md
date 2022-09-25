@@ -1,3 +1,3 @@
 # Python
- Just Pretty Practice Python Projects
+ Just Pretty Practice Python Projects :)
  
