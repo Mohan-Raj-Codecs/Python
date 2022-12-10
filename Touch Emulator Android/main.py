@@ -5,10 +5,16 @@ from time import sleep
 import subprocess as sp
 
 sp.call("Screenshot.bat",shell=True)
-pixel_width,pixel_height=Image.open("screenshot.png").size
+try:  #If no screenshots there
+    pixel_width,pixel_height=Image.open("screenshot.png").size
+except:
+    sp.call("copy cant.png screenshot.png",shell=True)
+    pixel_width,pixel_height=Image.open("screenshot.png").size
+
 MAX_RIGHT,MAX_DOWN,MAX_LEFT,MAX_UP=(0,0,0,0)
 
 def Phone_Info():
+    global pixel_width,pixel_height
     pixel_width,pixel_height=Image.open("screenshot.png").size
     MAX_RIGHT=pixel_width,pixel_height//2
     MAX_DOWN=pixel_width//2,pixel_height
@@ -65,11 +71,13 @@ class ImgDetect:
 
     def click_press(self,event):
         print("Rooted : ",event.x_root,event.y_root)
+        #x,y=event.x,event.y
         x,y=self.upscale(event.x,event.y)
         self.click_press_X=x
         self.click_press_Y=y
 
     def click_release(self,event):
+        #x,y=event.x,event.y
         x,y=self.upscale(event.x,event.y)
         cm=""
         if (self.click_press_X<0 and x<0) and (self.click_press_Y<0 and y<0):
