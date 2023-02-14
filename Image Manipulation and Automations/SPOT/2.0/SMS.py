@@ -16,9 +16,9 @@ def send_alert(x):
         jso += '\nHope you didn\'t invite them for Party :)'
     print(url_sms+jso)
     print("Sending Data......")
-    r1 = requests.get(url_sms+jso, timeout=2.50)
-    r2 = requests.get(url_mail+jso, timeout=2.50)
-    print("Sent :)" if(r1.status_code >= 200 and r2.status_code >= 200) else "Failed")
-    print(r1.status_code)
-    print(r2.status_code)
+    #r1 = requests.get(url_sms+jso, timeout=2.50)
+    #r2 = requests.get(url_mail+jso, timeout=2.50)
+    #print("Sent :)" if(r1.status_code >= 200 and r2.status_code >= 200) else "Failed")
+    #print(r1.status_code)
+    #print(r2.status_code)
 
